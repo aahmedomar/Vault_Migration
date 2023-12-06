@@ -1,0 +1,121 @@
+steps:
+  PAYMENT-ff51d45c19d5f519bc45b8d90b3bce0936ee0716ace19266940f3d970db22370:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: ""
+      locationID: ""
+      locationName: STRIPE
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 543d8e046ee09f1fb9a515091133078cb199719e0e99915281f6e07c369782df
+              stepCounter: ff51d45c19d5f519bc45b8d90b3bce0936ee0716ace19266940f3d970db22370
+            config: 
+            dataType: 
+            defaultValue: ""
+            description: ""
+            name: AMOUNT
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: fec8453b3a5fb2751f7bcd8c8adb42e0cf4f293650cfa7d9b11239e30bd02031
+              stepCounter: ff51d45c19d5f519bc45b8d90b3bce0936ee0716ace19266940f3d970db22370
+            config: 
+            dataType: 
+            defaultValue: ""
+            description: ""
+            name: CREATED
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: dc75b010a61cd5cbd0732c76bf4f615a8f93223ac501350493c62b1f991b1e04
+              stepCounter: ff51d45c19d5f519bc45b8d90b3bce0936ee0716ace19266940f3d970db22370
+            config: 
+            dataType: 
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 4d06be8db7de36b5a865b52f2627ada1c4f497fe8ccff04645f96a053a410685
+              stepCounter: ff51d45c19d5f519bc45b8d90b3bce0936ee0716ace19266940f3d970db22370
+            config: 
+            dataType: 
+            defaultValue: ""
+            description: ""
+            name: ORDERID
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: c6958bf52a179d112d0e8204f0bfc244e79e841ca8664f1fc0788cf70339cddc
+              stepCounter: ff51d45c19d5f519bc45b8d90b3bce0936ee0716ace19266940f3d970db22370
+            config: 
+            dataType: 
+            defaultValue: ""
+            description: ""
+            name: PAYMENTMETHOD
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 21e6e580187c2773c80a11da36fbfd267a2514ad4b656758e370f75e2744bc71
+              stepCounter: ff51d45c19d5f519bc45b8d90b3bce0936ee0716ace19266940f3d970db22370
+            config: 
+            dataType: 
+            defaultValue: ""
+            description: ""
+            name: STATUS
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM { ref(f'STRIPE', 'PAYMENT') }
+      name: PAYMENT
+      schema: ""
+      sqlType: Source
+      table: PAYMENT
+      type: sourceInput
+    stepCounter: ff51d45c19d5f519bc45b8d90b3bce0936ee0716ace19266940f3d970db22370
