@@ -1,0 +1,836 @@
+steps:
+  CTE_FINAL_1-ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: DBT_GGITHIRI
+      materializationType: view
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 6a320c5441b34196d7edcef726d102b1cf5cb293c139aad1e804b65f91fafd66
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BANK_TRANSFER_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 87800cd84a836147a471466744b10b24cdcd66862b6ee070e87735a7104e267c
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 6a320c5441b34196d7edcef726d102b1cf5cb293c139aad1e804b65f91fafd66
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BANK_TRANSFER_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 87800cd84a836147a471466744b10b24cdcd66862b6ee070e87735a7104e267c
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 6a320c5441b34196d7edcef726d102b1cf5cb293c139aad1e804b65f91fafd66
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BANK_TRANSFER_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 87800cd84a836147a471466744b10b24cdcd66862b6ee070e87735a7104e267c
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 6a320c5441b34196d7edcef726d102b1cf5cb293c139aad1e804b65f91fafd66
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BANK_TRANSFER_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 87800cd84a836147a471466744b10b24cdcd66862b6ee070e87735a7104e267c
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 6a320c5441b34196d7edcef726d102b1cf5cb293c139aad1e804b65f91fafd66
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BANK_TRANSFER_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 87800cd84a836147a471466744b10b24cdcd66862b6ee070e87735a7104e267c
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 6a320c5441b34196d7edcef726d102b1cf5cb293c139aad1e804b65f91fafd66
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BANK_TRANSFER_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 87800cd84a836147a471466744b10b24cdcd66862b6ee070e87735a7104e267c
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 6a320c5441b34196d7edcef726d102b1cf5cb293c139aad1e804b65f91fafd66
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BANK_TRANSFER_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 87800cd84a836147a471466744b10b24cdcd66862b6ee070e87735a7104e267c
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 6a320c5441b34196d7edcef726d102b1cf5cb293c139aad1e804b65f91fafd66
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BANK_TRANSFER_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 87800cd84a836147a471466744b10b24cdcd66862b6ee070e87735a7104e267c
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 9f02cc787394987ef85e194c4a8985aedd8d83a092c9dcc1684add32ace4b2e5
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: COUPON_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: fb1dc3cb1d1f0ed0a07c71dc5e0ad12fbfa367db3dcc2b9d10e7e49facf4b51c
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 9f02cc787394987ef85e194c4a8985aedd8d83a092c9dcc1684add32ace4b2e5
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: COUPON_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: fb1dc3cb1d1f0ed0a07c71dc5e0ad12fbfa367db3dcc2b9d10e7e49facf4b51c
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 9f02cc787394987ef85e194c4a8985aedd8d83a092c9dcc1684add32ace4b2e5
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: COUPON_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: fb1dc3cb1d1f0ed0a07c71dc5e0ad12fbfa367db3dcc2b9d10e7e49facf4b51c
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 9f02cc787394987ef85e194c4a8985aedd8d83a092c9dcc1684add32ace4b2e5
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: COUPON_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: fb1dc3cb1d1f0ed0a07c71dc5e0ad12fbfa367db3dcc2b9d10e7e49facf4b51c
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 9f02cc787394987ef85e194c4a8985aedd8d83a092c9dcc1684add32ace4b2e5
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: COUPON_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: fb1dc3cb1d1f0ed0a07c71dc5e0ad12fbfa367db3dcc2b9d10e7e49facf4b51c
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 9f02cc787394987ef85e194c4a8985aedd8d83a092c9dcc1684add32ace4b2e5
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: COUPON_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: fb1dc3cb1d1f0ed0a07c71dc5e0ad12fbfa367db3dcc2b9d10e7e49facf4b51c
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 9f02cc787394987ef85e194c4a8985aedd8d83a092c9dcc1684add32ace4b2e5
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: COUPON_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: fb1dc3cb1d1f0ed0a07c71dc5e0ad12fbfa367db3dcc2b9d10e7e49facf4b51c
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 9f02cc787394987ef85e194c4a8985aedd8d83a092c9dcc1684add32ace4b2e5
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: COUPON_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: fb1dc3cb1d1f0ed0a07c71dc5e0ad12fbfa367db3dcc2b9d10e7e49facf4b51c
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 8f04c6a9a2cb93d21fc520af95833cf9b233a50bce0134cf14bd31a9464cb82b
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CREDIT_CARD_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 4d7993a074787c687e722f83b8b091b047d18f4a7d3ce054f77c29f7beeac38b
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 8f04c6a9a2cb93d21fc520af95833cf9b233a50bce0134cf14bd31a9464cb82b
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CREDIT_CARD_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 4d7993a074787c687e722f83b8b091b047d18f4a7d3ce054f77c29f7beeac38b
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 8f04c6a9a2cb93d21fc520af95833cf9b233a50bce0134cf14bd31a9464cb82b
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CREDIT_CARD_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 4d7993a074787c687e722f83b8b091b047d18f4a7d3ce054f77c29f7beeac38b
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 8f04c6a9a2cb93d21fc520af95833cf9b233a50bce0134cf14bd31a9464cb82b
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CREDIT_CARD_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 4d7993a074787c687e722f83b8b091b047d18f4a7d3ce054f77c29f7beeac38b
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 8f04c6a9a2cb93d21fc520af95833cf9b233a50bce0134cf14bd31a9464cb82b
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CREDIT_CARD_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 4d7993a074787c687e722f83b8b091b047d18f4a7d3ce054f77c29f7beeac38b
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 8f04c6a9a2cb93d21fc520af95833cf9b233a50bce0134cf14bd31a9464cb82b
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CREDIT_CARD_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 4d7993a074787c687e722f83b8b091b047d18f4a7d3ce054f77c29f7beeac38b
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 8f04c6a9a2cb93d21fc520af95833cf9b233a50bce0134cf14bd31a9464cb82b
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CREDIT_CARD_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 4d7993a074787c687e722f83b8b091b047d18f4a7d3ce054f77c29f7beeac38b
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 8f04c6a9a2cb93d21fc520af95833cf9b233a50bce0134cf14bd31a9464cb82b
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CREDIT_CARD_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 4d7993a074787c687e722f83b8b091b047d18f4a7d3ce054f77c29f7beeac38b
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 2de92fc828b027d8de7e3d34efdf736fe87adf19595647bdd00c3ce1fa1ca6c5
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: GIFT_CARD_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 081736d6302e745269ceee1a7495ea2b4c98377d8a531135b999a2450ad20949
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 2de92fc828b027d8de7e3d34efdf736fe87adf19595647bdd00c3ce1fa1ca6c5
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: GIFT_CARD_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 081736d6302e745269ceee1a7495ea2b4c98377d8a531135b999a2450ad20949
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 2de92fc828b027d8de7e3d34efdf736fe87adf19595647bdd00c3ce1fa1ca6c5
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: GIFT_CARD_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 081736d6302e745269ceee1a7495ea2b4c98377d8a531135b999a2450ad20949
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 2de92fc828b027d8de7e3d34efdf736fe87adf19595647bdd00c3ce1fa1ca6c5
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: GIFT_CARD_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 081736d6302e745269ceee1a7495ea2b4c98377d8a531135b999a2450ad20949
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 2de92fc828b027d8de7e3d34efdf736fe87adf19595647bdd00c3ce1fa1ca6c5
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: GIFT_CARD_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 081736d6302e745269ceee1a7495ea2b4c98377d8a531135b999a2450ad20949
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 2de92fc828b027d8de7e3d34efdf736fe87adf19595647bdd00c3ce1fa1ca6c5
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: GIFT_CARD_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 081736d6302e745269ceee1a7495ea2b4c98377d8a531135b999a2450ad20949
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 2de92fc828b027d8de7e3d34efdf736fe87adf19595647bdd00c3ce1fa1ca6c5
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: GIFT_CARD_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 081736d6302e745269ceee1a7495ea2b4c98377d8a531135b999a2450ad20949
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 2de92fc828b027d8de7e3d34efdf736fe87adf19595647bdd00c3ce1fa1ca6c5
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: GIFT_CARD_A
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 081736d6302e745269ceee1a7495ea2b4c98377d8a531135b999a2450ad20949
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: f1efb760957a4699e1a3a1c66b0a7d9ee6364ecbcd71b245e524204b853ff01d
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ORDER_ID
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: e6262708940be6aadc0f83d1ee05e88e49d4e4c93df8b6acd3178705caff2f36
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: f1efb760957a4699e1a3a1c66b0a7d9ee6364ecbcd71b245e524204b853ff01d
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ORDER_ID
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: e6262708940be6aadc0f83d1ee05e88e49d4e4c93df8b6acd3178705caff2f36
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: f1efb760957a4699e1a3a1c66b0a7d9ee6364ecbcd71b245e524204b853ff01d
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ORDER_ID
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: e6262708940be6aadc0f83d1ee05e88e49d4e4c93df8b6acd3178705caff2f36
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: f1efb760957a4699e1a3a1c66b0a7d9ee6364ecbcd71b245e524204b853ff01d
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ORDER_ID
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: e6262708940be6aadc0f83d1ee05e88e49d4e4c93df8b6acd3178705caff2f36
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: f1efb760957a4699e1a3a1c66b0a7d9ee6364ecbcd71b245e524204b853ff01d
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ORDER_ID
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: e6262708940be6aadc0f83d1ee05e88e49d4e4c93df8b6acd3178705caff2f36
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: f1efb760957a4699e1a3a1c66b0a7d9ee6364ecbcd71b245e524204b853ff01d
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ORDER_ID
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: e6262708940be6aadc0f83d1ee05e88e49d4e4c93df8b6acd3178705caff2f36
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: f1efb760957a4699e1a3a1c66b0a7d9ee6364ecbcd71b245e524204b853ff01d
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ORDER_ID
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: e6262708940be6aadc0f83d1ee05e88e49d4e4c93df8b6acd3178705caff2f36
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: f1efb760957a4699e1a3a1c66b0a7d9ee6364ecbcd71b245e524204b853ff01d
+              stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ORDER_ID
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: e6262708940be6aadc0f83d1ee05e88e49d4e4c93df8b6acd3178705caff2f36
+                stepCounter: e1359010275f8b0b7e3a44bf4dd90a6a494c205368c2d5f1043f6558d28dacaf
+              transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: DBT_GGITHIRI
+                nodeName: INT_ORDERS__PIVOTED_RS_2
+            join:
+                joinCondition: FROM {{ ref('DBT_GGITHIRI', 'INT_ORDERS__PIVOTED_RS_2') }} "INT_ORDERS__PIVOTED_RS_2"
+            name: CTE_FINAL_1
+            noLinkRefs: []
+      name: CTE_FINAL_1
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: ea6efbe3cf151bbf6a699139168eddace3ac661067e8a0de43ebca197fbc96f8
