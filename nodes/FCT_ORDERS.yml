@@ -1,0 +1,118 @@
+steps:
+  FCT_ORDERS-3996660bfc1545c9a8a6396bbdef83d56bc5e59a4040fff481617b8bf0057350:
+    operation:
+      config:
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationName: DBT_GGITHIRI
+      materializationType: Table
+      metadata:
+        appliedNodeTests: []
+        columns:
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: false
+            isDistinct: true
+          columnReference:
+            columnCounter: da8886e71ebf69fce91a631292113f9c1b1b15d15ab149f676024c0d2a5f249b
+            stepCounter: 3996660bfc1545c9a8a6396bbdef83d56bc5e59a4040fff481617b8bf0057350
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: ORDER_ID
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: a0718c265c7387523adf32c42e2cafb1ae00c074a07743dd53fa6189e1d5e72f
+              stepCounter: 9d813b61d89f0e792b15c58bcb0cececbc124830f184683b3939bdd8ed948eb3
+            transform: ""
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: 7d3c9ad8783451c7cf63518407d04ad2a3ddeac9aba3413e49fae9d5feba4888
+            stepCounter: 3996660bfc1545c9a8a6396bbdef83d56bc5e59a4040fff481617b8bf0057350
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: AMOUNT
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: 9573da6d0a1cf2daf16e5ac3d0e993c41fbaaed8a8c419c4924c3fd4cddb9ee1
+              stepCounter: 9d813b61d89f0e792b15c58bcb0cececbc124830f184683b3939bdd8ed948eb3
+            transform: coalesce(AMOUNT)
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: 14a7b5fe6abe32b75cc5b61e261531ea3df1a2dfbc7840099e4535a885adaa71
+            stepCounter: 3996660bfc1545c9a8a6396bbdef83d56bc5e59a4040fff481617b8bf0057350
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: CUSTOMER_ID
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: 467841ca97f90c4c60b2b1b1eaa6ba245e6910b510540324d6cff92c5fbc91cf
+              stepCounter: dfd3955f051309557669ad6b4c170496930d4bbac8bfe69d51d893b51097b7d0
+            transform: ""
+        - acceptedValues:
+            strictMatch: true
+            values: []
+          appliedColumnTests:
+            hasNull: true
+            isDistinct: false
+          columnReference:
+            columnCounter: ec13890e736bc1814ae4f8acf17857269435ed38d66b8005ea03b79472bc9f70
+            stepCounter: 3996660bfc1545c9a8a6396bbdef83d56bc5e59a4040fff481617b8bf0057350
+          dataType: ""
+          description: ""
+          hashColumns: []
+          hashDetails: null
+          name: ORDER_DATE
+          nullable: false
+          sourceColumnReferences:
+          - columnReferences:
+            - columnCounter: 4238edec091c6050a1a73bb59c056a117c149a462df45b9302f6c9f626a02033
+              stepCounter: dfd3955f051309557669ad6b4c170496930d4bbac8bfe69d51d893b51097b7d0
+            transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+        - customSQL:
+            customSQL: ""
+          dependencies:
+          - locationName: DBT_GGITHIRI
+            nodeName: CTE_ORDER_PAYMENTS_FCT_1
+          join:
+            joinCondition: |-
+              FROM {{ ref('DBT_GGITHIRI', 'FCT_ORDERS_RS_5') }} "FCT_ORDERS_RS_5"
+              INNER JOIN {{ ref('DBT_GGITHIRI', 'CTE_ORDER_PAYMENTS_FCT_1') }} "CTE_ORDER_PAYMENTS_FCT_1"
+              ON "FCT_ORDERS_RS_5"./*COLUMN*/ = "CTE_ORDER_PAYMENTS_FCT_1"./*COLUMN*/
+          name: FCT_ORDERS
+          noLinkRefs: []
+      name: FCT_ORDERS
+      overrideSQL: false
+      schema: ""
+      sqlType: Fact
+      type: sql
+    stepCounter: 3996660bfc1545c9a8a6396bbdef83d56bc5e59a4040fff481617b8bf0057350
