@@ -1,0 +1,87 @@
+steps:
+  ORDERS-13dfd0651cdd5276d99ecd36161a0f701a238e72021e459ef8b3828821890d8b:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: ""
+      locationID: ""
+      locationName: JAFFLE_SHOP
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 49f0641349b950c87f55cc6d337642628915a33694296a4046e6af84dfe401ad
+              stepCounter: 13dfd0651cdd5276d99ecd36161a0f701a238e72021e459ef8b3828821890d8b
+            config: 
+            dataType: 
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 926d990e1451ac9d31539a8e49adfc059ac85b1186be088d2851111559b347e5
+              stepCounter: 13dfd0651cdd5276d99ecd36161a0f701a238e72021e459ef8b3828821890d8b
+            config: 
+            dataType: 
+            defaultValue: ""
+            description: ""
+            name: ORDER_DATE
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: c1a9c40dca09fc2e9ea86596fc116a32f5147013664d28b25bac4ad8e1151555
+              stepCounter: 13dfd0651cdd5276d99ecd36161a0f701a238e72021e459ef8b3828821890d8b
+            config: 
+            dataType: 
+            defaultValue: ""
+            description: ""
+            name: STATUS
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 6989100032c5c257198a8974003baceb94f8398dcdab9df88b1fa11264c2a28d
+              stepCounter: 13dfd0651cdd5276d99ecd36161a0f701a238e72021e459ef8b3828821890d8b
+            config: 
+            dataType: 
+            defaultValue: ""
+            description: ""
+            name: USER_ID
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM { ref(f'JAFFLE_SHOP', 'ORDERS') }
+      name: ORDERS
+      schema: ""
+      sqlType: Source
+      table: ORDERS
+      type: sourceInput
+    stepCounter: 13dfd0651cdd5276d99ecd36161a0f701a238e72021e459ef8b3828821890d8b
